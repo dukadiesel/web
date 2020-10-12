@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Dusan";
+    src: url("./Raleway-Regular.ttf")
+}
+
+.first {
+color: rgb(8, 54, 54);
+background-color: rgb(207, 160, 185);
+font-family: Dusan;
+}
+
+.second {
+    color: rgb(3, 77, 78);
+    background-color: rgb(9, 85, 9, 0.5);
+font-family: dusan;
+font-style: oblique;
+}
+
+.third {
+    color: #00ced1;
+    background-color: #000000;
+    opacity: 0.8;
+    font-family: 'Covered By Your Grace', cursive;}
+
+.textP {
+    font-family: fantasy;
+}
+
+q {
+    font-family: 'Covered By Your Grace', cursive;   font-weight: bold;
+   font-style: oblique;
+}
+
+span {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.par {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.par2{
+    text-transform: lowercase;
+    text-decoration: line-through;
+}

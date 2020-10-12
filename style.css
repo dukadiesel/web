@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    margin: 20px;
+}
+
+form {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    background-color: rgb(235, 235, 245);
+    padding: 30px;
+    border-radius: 10px 0px ;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+   margin: auto;
+   padding: 10px 0px 10px 0px;
+   border-bottom: black solid 1px;
+   margin-bottom: 10px;
+}
+h2 span {
+    color: goldenrod;
+}
+
+label{
+    font-size: 20px;
+    margin-top: 20px;
+ padding-bottom: 5px;
+    display: block;
+    
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    box-shadow: 0 0 10px #a09e9e;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.dugme{
+    background-color: rgb(180, 37, 37);
+    width: 100%;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  box-shadow: 0;
+  box-sizing: border-box;
+}
+
+.dugme:hover{
+    cursor: crosshair;
+
+.first{
+background-color: yellow;
+width: 300px;
+height: 500px;
+max-width: 300px;
+overflow: hidden;
+padding: 0px;
+margin-right: 20px;
+}
+
+.second{
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    max-height: 200px;
+    overflow: hidden;
+    border: yellow;
+    border-style: groove;
+    margin-right: 20px;
+    padding: 0px;
+    visibility: hidden;
+  
+}
+
+.third{
+border: 5px red;
+
+border-style: dashed;
+padding: 0px;
+width: 200px;
+margin-right: 20px;
+}
+
+.inline{
+    display: inline-flex;
+
+}
+.fourth{
+    border: 5px green;
+    border-style: solid;
+    padding-top: 50px;
+    width: 400px;
+
+    }
+
+.fifth{
+    border: 5px red;
+    border-style: dashed;
+    padding: 50px;
+    width: 200px;
+    margin-left: 100px;
+}
+h1{
+    width: 960px;
+    margin: 50px auto auto;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color: khaki;
+    color: brown;
+    font-family: fantasy;
+    box-shadow: 2px 0px 10px #8a6565 ;
+    border-radius: 12px 10px 10px 10px;
+}
+
+.firstList{
+    list-style-type: circle;
+}
+
+.secondList{
+list-style-type: square;
+}
+
+.thirdList{
+    list-style-type: upper-alpha;
+}
+
+.fourthList{
+    list-style-type: lower-roman;
+}
+
+.fifthList{
+list-style-type: none;
+margin-left: -10px;
+list-style-position: inside;
+}
+
+.sixthList{
+width: 200px;
+list-style-position: inside;
+}
+
+table{
+    border-collapse: collapse;  
+    margin: 20px auto;
+
+    
+}
+th {
+    background-color: rgb(185, 28, 28);
+    color: white ;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+
+} 
+tr{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+
+tr:nth-child(odd) td{
+      background-color: rgba(212, 212, 212, 0.986);
+  }
+  
+tr:hover td, tr:nth-child(odd):hover td{
+    background-color: #ffbc40;
+  }
+
