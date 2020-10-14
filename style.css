@@ -2,10 +2,33 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../web/bc.jpeg);
+    background-repeat: no-repeat;
+    background-position: left top ;
+    background-size: cover;
+    
+   
+}
+
 div {
     margin: 20px;
 }
-
+p:first-child > img {
+    height: 200px;
+    display: block;
+    float: right;
+}
+p:nth-child(2) > img{
+width: 200px;
+display: block;
+margin: 0 auto;
+}
+p:last-child > img{
+height: 200px;
+width: 200px;
+float: left;
+}
 form {
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,11 +43,11 @@ input:hover{
 }
 
 h2{
-    text-align: center;
+
     font-size: 40px;
-   margin: auto;
+
    padding: 10px 0px 10px 0px;
-   border-bottom: black solid 1px;
+
    margin-bottom: 10px;
 }
 h2 span {
