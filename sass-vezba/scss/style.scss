@@ -1,32 +1,39 @@
+@import "partial";
+
 $backgound-black: #000000;
 $lepaboja: #a17cc0;
 $sirina: 40%;
+
+
 
 @font-face {
     font-family: "Dusan";
     src: url("./Raleway-Regular.ttf")
 }
 
+p {
+    @include size();
+    @include boxic(yellow);
+    @include shadow();
+}
 .first {
 color:$lepaboja;
 background-color:$backgound-black;
 font-family: Dusan;
+border: red solid 2px;
 }
 
 .second {
-color: rgb(3, 77, 78);
-background-color: rgba(9, 85, 9, 0.5);
-font-family: dusan;
-font-style: oblique;
+    @extend .first;
+
 }
 
 .third {
-    color: $lepaboja;
-    background-color: $backgound-black;
-    opacity: 0.8;
-    font-family: 'Covered By Your Grace', cursive;}
-
+    @extend .first;
+    
+}
 .textP {
+    @extend .first;
     font-family: fantasy;
 }
 
@@ -38,6 +45,7 @@ q {
 }
 
 span {
+    @extend .first;
     font-weight: bolder;
     font-style: italic;
 }
@@ -50,4 +58,16 @@ span {
 .par2{
     text-transform: lowercase;
     text-decoration: line-through;
+}
+
+div {
+    .first {
+        ul {
+            li {
+                &:first-child{
+
+                }
+            }
+        }
+    }
 }

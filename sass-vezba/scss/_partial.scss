@@ -1,0 +1,15 @@
+@mixin size(){
+    width: 300px;
+    height: 250px;
+    border: solid 2px #000;
+    float: left;
+}
+@mixin shadow(){
+    text-shadow: $backgound-black;
+    text-align: center;
+}
+
+@mixin boxic($boja){
+    box-shadow: 10px;
+    background-color: $boja;
+}

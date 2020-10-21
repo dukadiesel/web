@@ -1,22 +1,21 @@
 @font-face {
   font-family: "Dusan";
   src: url("./Raleway-Regular.ttf"); }
-.first {
+p {
+  width: 300px;
+  height: 250px;
+  border: solid 2px #000;
+  float: left;
+  box-shadow: 10px;
+  background-color: yellow;
+  text-shadow: #000000;
+  text-align: center; }
+
+.first, .second, .third, .textP, span {
   color: #a17cc0;
   background-color: #000000;
-  font-family: Dusan; }
-
-.second {
-  color: #034d4e;
-  background-color: rgba(9, 85, 9, 0.5);
-  font-family: dusan;
-  font-style: oblique; }
-
-.third {
-  color: #a17cc0;
-  background-color: #000000;
-  opacity: 0.8;
-  font-family: 'Covered By Your Grace', cursive; }
+  font-family: Dusan;
+  border: red solid 2px; }
 
 .textP {
   font-family: fantasy; }
