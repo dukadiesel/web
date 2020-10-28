@@ -9,3 +9,7 @@ background-color: cyan;
 .novaklasa {
     background-color: darkorange;
 }
+
+.boja {
+    border: red solid 2px;
+}
