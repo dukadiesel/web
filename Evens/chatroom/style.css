@@ -1,0 +1,38 @@
+
+body {
+    text-align: center;
+   
+    background-color: gray;
+}
+
+button {
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.novaklasa{
+    background-color: white;
+}
+
+div.chat {
+    min-height: 300px;
+    background-color: wheat;
+    width: 80%;
+    margin: 0 auto;
+
+}
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+input {
+    width: 80%;
+}
+
+span{
+    display: flex;
+}
