@@ -1,0 +1,49 @@
+* {
+  font-family: Tahoma;
+}
+
+header {
+  background-color: #white;
+  color: #2f2f2f;
+  padding: 10px 0;
+  border-bottom: solid 2px #ff0000
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .wrapper {
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .wrapper>div {
+  padding: 15px;
+}
+
+main .wrapper div.container {
+  display: flex;
+  width: 100%;
+}
+
+main .wrapper>div .videooo {
+  width: 35%;
+}
+
+main .wrapper>div iframe {
+  width: 100%
+}
+
+main .wrapper>div .texttt {
+  padding: 0 20px;
+  width: 65%;
+}

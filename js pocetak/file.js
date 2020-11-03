@@ -2,7 +2,7 @@
 //     console.log("Hello world")
 // };
 // welcomeMesage();
-
+//
 // function win() {
 //     console.log(window.navigator)
 //     console.log(window.navigator.appCodeName);
@@ -10,7 +10,7 @@
 //     console.log(window.navigator.vendor);
 // };
 // win();
-
+//
 // function isOnline() {
 //     if (window.navigator.onLine) {
 //         console.log("Online")
@@ -19,14 +19,14 @@
 //     }
 // };
 // isOnline();
-
+//
 // function sirina() {
 //     console.log(window.screen.width)
 //     console.log(window.screen.height)
 //     console.log(window.screen.availHeight)
 // }
 // sirina();
-
+//
 // function lokacija() {
 //     // window.location.href = "http://www.google.rs"
 //     console.log(window.location)
@@ -42,8 +42,10 @@
 //     window.localStorage.setItem("cat", catName)
 // }
 // skladiste("Tom");
-
-
+//
+//
+//
+//
 // function dobij() {
 //     if (!localStorage.length) {
 //         console.log("there is no data")
@@ -58,22 +60,27 @@
 // }
 // obrisi();
 // dobij();
-
-function poruka() {
-    alert('Hello!!!')
+//
+// function poruka() {
+//     alert('Hello!!!')
+// }
+// poruka();
+//
+// function quest() {
+//     prompt('Pita Stefan jel imas 18 godina?')
+// }
+//
+// var a = prompt('Pita Stefan jel imas 18 godina?')
+//
+// function yes() {
+//     if (confirm("We will submit this answer now ---> " + a)) {
+//         alert('Hvala!!!!')
+//     }
+// }
+// yes();
+//
+function nista() {
+  window.open('http://google.rs')
 }
-poruka();
 
-function quest() {
-    prompt('Pita Stefan jel imas 18 godina?')
-}
-
-var a = prompt('Pita Stefan jel imas 18 godina?')
-
-function yes() {
-    if (confirm("We will submit this answer now ---> " + a)) {
-        alert('Hvala!!!!')
-    }
-}
-yes();
-
+nista();

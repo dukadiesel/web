@@ -39,10 +39,21 @@ main {
   display: block;
 }
 
+.cf::before .cf::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 article {
   width: 31%;
   float: left;
-  margin-right: 20px;
+  margin-right: 3.5%;
+  height: 382px;
+}
+
+article:nth-child(3n) {
+  margin-right: 0;
 }
 
 article .a3 {
