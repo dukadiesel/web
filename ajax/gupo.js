@@ -13,7 +13,7 @@ function removeCurrentImage() {
     img && img.parentElement.removeChild(img);
 }
 function getData() {
-    var newXhR = new XMLHttpRequest();
+    var newXhR = new XMLHttpRequest(); /.
     newXhR.open('GET', "https://dog.ceo/api/breeds/image/random");
 
 
