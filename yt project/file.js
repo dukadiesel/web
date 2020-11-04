@@ -1,20 +1,29 @@
 var key = "AIzaSyAGq4WyoJKI8xcHqA4UDiT0fHQoMJrZZVs";
 var search = document.querySelector('.search');
-var videos = document.querySelector('main .wrapper')
+var videos = document.querySelector('main .wrapper');
+var iframe = document.querySelector('iframe');
+
+function goPlay(video) {
+  iframe.setAttribute('src', 'https://www.youtube.com/embed/' + video);
+  iframe.classList.add('visible')
+  iframe.setAttribute('style', 'display:block')
+}
 
 function createVideo(video) {
   var container = document.createElement('div');
   var videoContainer = document.createElement('div');
-  var videoPlace = document.createElement('iframe');
+  var videoPlace = document.createElement('img');
   var textContainer = document.createElement('div')
   var videoTitle = document.createElement('h3');
+  videoTitle.addEventListener('click', function() {
+    goPlay(video.id.videoId)
+  });
   var videoDesc = document.createElement('p')
   //ubaci sta gde ide
-  var videoUrl = "https://www.youtube.com/embed/"
-  videoPlace.setAttribute('src', videoUrl + video.id.videoId)
-  videoPlace.setAttribute('width', '560')
-  videoPlace.setAttribute('heigth', '315')
-  videoPlace.setAttribute('frameborder', '0')
+  videoPlace.addEventListener('click', function() {
+    goPlay(video.id.videoId)
+  });
+  videoPlace.setAttribute('src', video.snippet.thumbnails.medium.url)
   //
   container.setAttribute('class', 'container')
   videoContainer.setAttribute('class', 'videooo')
@@ -35,7 +44,6 @@ function createVideo(video) {
 
 function listVideos(data) {
   videos.innerHTML = '';
-  data.length = 30;
   for (var i = 0; i < data.length; i++) {
     createVideo(data[i])
   }
